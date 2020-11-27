@@ -1,0 +1,47 @@
+[
+  {
+    "namespace": "composeMessageHeaders",
+    "functions": [
+      {
+        "name": "addComposeHeader",
+        "type": "function",
+        "description": "Adds given message header to current message.",
+        "parameters": [
+          {
+            "name": "tabId",
+            "type": "integer",
+            "description": "TabId to the tab with the message to add the message header to."
+          },
+          {
+            "name": "headerName",
+            "type": "string",
+            "description": "Header name to add."
+          },
+          {
+            "name": "headerValue",
+            "type": "string",
+            "description": "Header value to the given header name to add."
+          }
+        ]
+      },
+      {
+        "name": "deleteComposeHeader",
+        "type": "function",
+        "description": "Remove given message header from current message.",
+        "parameters": [
+          {
+            "name": "tabId",
+            "type": "integer",
+            "description": "TabId to the tab with the message to remove the message header from."
+          },
+          {
+            "name": "headerName",
+            "type": "string",
+            "description": "Header name to remove."
+          }
+        ]
+      }
+    ],
+    "events": [ ]
+  }
+]

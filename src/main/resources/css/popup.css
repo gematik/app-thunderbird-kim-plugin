@@ -1,0 +1,21 @@
+.kim-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 95%;
+    height: 180px;
+    padding: 5px;
+}
+
+.present {
+  color: green;
+}
+
+.not-present {
+  color: red;
+}
+
+h1 {
+  font-size: 120%;
+  font-style: normal;
+  font-weight: bolder;
+  color: blue;
+}

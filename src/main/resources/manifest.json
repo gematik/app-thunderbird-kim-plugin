@@ -1,0 +1,53 @@
+{
+  "manifest_version": 2,
+  "name": "${pom.name}",
+  "description": "${pom.description}",
+  "version": "${pom.version}",
+  "author": "Gematik TI-Entwicklung",
+  "applications": {
+    "gecko": {
+      "id": "ti-entwicklung@gematik.de",
+      "strict_min_version": "77.0"
+    }
+  },
+  "background": {
+    "scripts": [
+        "scripts/background.js"
+    ]
+  },
+  "compose_action": {
+        "default_popup": "pages/add_header_popup.html",
+        "default_title": "Gematik KIM Plugin",
+        "default_icon": "images/favicon-32x32.png"
+  },
+  "message_display_action": {
+        "default_popup": "pages/show_header_popup.html",
+        "default_title": "KIM Plugin",
+        "default_icon": "images/favicon-32x32.png"
+  },
+  "permissions": [
+      "compose",
+      "messagesRead"
+  ],
+  "experiment_apis": {
+    "composeMessageHeaders": {
+      "schema": "api/compose_message_headers/schema.json",
+      "parent": {
+        "scopes": [
+          "addon_parent"
+        ],
+        "paths": [
+          [
+            "composeMessageHeaders"
+          ]
+        ],
+        "script": "api/compose_message_headers/implementation.js"
+      }
+    }
+  },
+  "icons": {
+      "96": "images/favicon-96x96.png",
+      "32": "images/favicon-32x32.png",
+      "16": "images/favicon-16x16.png"
+  }
+}
