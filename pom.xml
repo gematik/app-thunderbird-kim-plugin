@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>de.gematik.kim</groupId>
     <artifactId>kim-thunderbird-plugin</artifactId>
-    <version>1.0.2-27</version>
+    <version>1.0.5-38</version>
     <name>Thunderbird KIM Plugin</name>
     <description>Plugin for setting KIM headers for messages</description>
     <inceptionYear>2020</inceptionYear>

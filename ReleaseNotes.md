@@ -1,3 +1,6 @@
+# Release 1.0.5
+* Updated service-ID list (Dienstkennung)
+
 # Release 1.0.2
 # Initial commit 
 
