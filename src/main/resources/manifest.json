@@ -6,7 +6,7 @@
   "author": "Gematik TI-Entwicklung",
   "applications": {
     "gecko": {
-      "id": "ti-entwicklung@gematik.de",
+      "id": "thunderbird-kim-plugin@gematik.de",
       "strict_min_version": "77.0"
     }
   },

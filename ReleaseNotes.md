@@ -1,3 +1,6 @@
+# Release 1.0.6
+* Changed plugin id
+
 # Release 1.0.5
 * Updated service-ID list (Dienstkennung)
 
