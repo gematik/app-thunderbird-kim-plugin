@@ -8,76 +8,20 @@
 </head>
 <body>
     <div class="kim-page">
-      <h1>KIM-Kopfzeilen</h1>
-      <label for="serviceid">X-KIM-Dienstkennung:</label>
+      <h1>KIM</h1>
+      <label for="serviceid">Typ der Nachricht:</label>
       <select id="input-serviceid" name="serviceid">
         <option value="" style="font-style: italic;"><em>keine</em></option>
-        <option value="KIM-Mail;Default;V1.0">KIM-Mail;Default;V1.0</option>
-        <option value="1ClickAbrechnung;Lieferung;V2.0">1ClickAbrechnung;Lieferung;V2.0</option>
-        <option value="1ClickAbrechnung;Eingangsbestaetigung;V2.0">1ClickAbrechnung;Eingangsbestaetigung;V2.0</option>
-        <option value="1ClickAbrechnung;Rueckmeldung;V2.0">1ClickAbrechnung;Rueckmeldung;V2.0</option>
-        <option value="DiMus;Lieferung;V1.0">DiMus;Lieferung;V1.0</option>
-        <option value="DiMus;Eingangsbestaetigung;V1.0">DiMus;Eingangsbestaetigung;V1.0</option>
-        <option value="eAU;Lieferung;V1.0">eAU;Lieferung;V1.0</option>
-        <option value="eAU;Storno-Arzt;V1.0">eAU;Storno-Arzt;V1.0</option>
-        <option value="eAU;Fehler-Kasse;V1.0">eAU;Fehler-Kasse;V1.0</option>
-        <option value="Arztbrief;VHitG-Versand;V1.0">Arztbrief;VHitG-Versand;V1.0</option>
-        <option value="Arztbrief;VHitG-Versand;V1.2">Arztbrief;VHitG-Versand;V1.2</option>
-        <option value="Arztbrief;Eingangsbestaetigung;V1.0">Arztbrief;Eingangsbestaetigung;V1.0</option>
-        <option value="Arztbrief;Eingangsbestaetigung;V1.2">Arztbrief;Eingangsbestaetigung;V1.2</option>
-        <option value="EBZ;PAR;1.1.0">EBZ;PAR;1.1.0</option>
-        <option value="EBZ;ZER;1.1.0">EBZ;ZER;1.1.0</option>
-        <option value="EBZ;KGL;1.1.0">EBZ;KGL;1.1.0</option>
-        <option value="EBZ;KBR;1.1.0">EBZ;KBR;1.1.0</option>
-        <option value="EBZ;KFO;1.1.0">EBZ;KFO;1.1.0</option>
-        <option value="EBZ;ANW;1.1.0">EBZ;ANW;1.1.0</option>
-        <option value="EBZ;FEH;1.1.0">EBZ;FEH;1.1.0</option>
-        <option value="EBZ;MIT;1.1.0">EBZ;MIT;1.1.0</option>
-        <option value="EBZ;QUI;1.1.0">EBZ;QUI;1.1.0</option>
-        <option value="eDMP;Einsendung;V1.0">eDMP;Einsendung;V1.0</option>
-        <option value="eDMP;Quittung;V1.0">eDMP;Quittung;V1.0</option>
-        <option value="eDokumentation-QSHLT;Lieferung;V2.0">eDokumentation-QSHLT;Lieferung;V2.0</option>
-        <option value="eDokumentation-QSHLT;Status;V2.0">eDokumentation-QSHLT;Status;V2.0</option>
-        <option value="eDokumentation-QSHLT;Eingangsbestaetigung;V2.0">eDokumentation-QSHLT;Eingangsbestaetigung;V2.0</option>
-        <option value="eDokumentation-QSKE;Lieferung;V2.0">eDokumentation-QSKE;Lieferung;V2.0</option>
-        <option value="eDokumentation-QSKE;Status;V2.0">eDokumentation-QSKE;Status;V2.0</option>
-        <option value="eDokumentation-QSKE;Eingangsbestaetigung;V2.0">eDokumentation-QSKE;Eingangsbestaetigung;V2.0</option>
-        <option value="eDokumentation-QSMG;Lieferung;V2.0">eDokumentation-QSMG;Lieferung;V2.0</option>
-        <option value="eDokumentation-QSMG;Status;V2.0">eDokumentation-QSMG;Status;V2.0</option>
-        <option value="eDokumentation-QSMG;Eingangsbestaetigung;V2.0">eDokumentation-QSMG;Eingangsbestaetigung;V2.0</option>
-        <option value="eDokumentation-QSHGV;Lieferung;V2.0">eDokumentation-QSHGV;Lieferung;V2.0</option>
-        <option value="eDokumentation-QSHGV;Status;V2.0">eDokumentation-QSHGV;Status;V2.0</option>
-        <option value="eDokumentation-QSHGV;Eingangsbestaetigung;V2.0">eDokumentation-QSHGV;Eingangsbestaetigung;V2.0</option>
-        <option value="eDokumentation-QSHGVK;Lieferung;V2.0">eDokumentation-QSHGVK;Lieferung;V2.0</option>
-        <option value="eDokumentation-QSHGVK;Status;V2.0">eDokumentation-QSHGVK;Status;V2.0</option>
-        <option value="eDokumentation-QSHGVK;Eingangsbestaetigung;V2.0">eDokumentation-QSHGVK;Eingangsbestaetigung;V2.0</option>
-        <option value="abD-eHKS;Einsendung;V1.0">abD-eHKS;Einsendung;V1.0</option>
-        <option value="abD-eHKS;Quittung;V1.0">abD-eHKS;Quittung;V1.0</option>
-        <option value="eNachricht;Lieferung;V2.0">eNachricht;Lieferung;V2.0</option>
-        <option value="eNachricht;Lieferung;V2.1">eNachricht;Lieferung;V2.1</option>
-        <option value="eNachricht;Eingangsbestaetigung;V2.0">eNachricht;Eingangsbestaetigung;V2.0</option>
-        <option value="eNachricht;Eingangsbestaetigung;V2.1">eNachricht;Eingangsbestaetigung;V2.1</option>
-        <option value="ePVS;Lieferung;V1.0">ePVS;Lieferung;V1.0</option>
-        <option value="ePVS;Rueckmeldung;V1.0">ePVS;Rueckmeldung;V1.0</option>
-        <option value="KZVAbr;Lieferung;V1.0">KZVAbr;Lieferung;V1.0</option>
-        <option value="KZVAbr;Rueckmeldung;V1.0">KZVAbr;Rueckmeldung;V1.0</option>
-        <option value="LDT-Auftrag;Lieferung;V1.0">LDT-Auftrag;Lieferung;V1.0</option>
-        <option value="LDT-Auftrag;Status;V1.0">LDT-Auftrag;Status;V1.0</option>
-        <option value="LDT-Auftrag;Eingangsbestaetigung;V1.0">LDT-Auftrag;Eingangsbestaetigung;V1.0</option>
-        <option value="LDT-Befund;Lieferung;V1.0">LDT-Befund;Lieferung;V1.0</option>
-        <option value="LDT-Befund;Trigger;V1.0">LDT-Befund;Trigger;V1.0</option>
-        <option value="LDT-Befund;Status;V1.0">LDT-Befund;Status;V1.0</option>
-        <option value="LDT-Befund;Eingangsbestaetigung;V1.0">LDT-Befund;Eingangsbestaetigung;V1.0</option>
-        <option value="QSPB;Empfangsbestaetigung;V2.0">QSPB;Empfangsbestaetigung;V2.0</option>
-        <option value="QSPB;Empfangsbestaetigung_RM;V2.0">QSPB;Empfangsbestaetigung_RM;V2.0</option>
-        <option value="QSPB;Miniprotokoll;V2.0">QSPB;Miniprotokoll;V2.0</option>
-        <option value="QSPB;Lieferung;V2.0">QSPB;Lieferung;V2.0</option>
-        <option value="QSPB;Datenflussprotokoll;V2.0">QSPB;Datenflussprotokoll;V2.0</option>
-        <option value="QSPB;Rueckmeldebericht;V2.0">QSPB;Rueckmeldebericht;V2.0</option>
-        <option value="UTeilnahme;Lieferung;V1.0">UTeilnahme;Lieferung;V1.0</option>
-        <option value="UTeilnahme;Quittung;V1.0">UTeilnahme;Quittung;V1.0</option>
-        <option value="Selbsttest;Lieferung;V1.0">Selbsttest;Lieferung;V1.0</option>
-        <option value="KIM-Mail;Abwesend;V1.0">KIM-Mail;Abwesend;V1.0</option>
+        <option value="EBZ;KFO;1.4.0">EBZ KFO Antrag v1.4.0</option>
+        <option value="EBZ;KBR;1.4.0">EBZ KBR Antrag v1.4.0</option>
+        <option value="EBZ;KGL;1.4.0">EBZ KGL Antrag v1.4.0</option>
+        <option value="EBZ;MIT;1.4.0">EBZ Mitteilung v1.4.0</option>
+        <option value="EBZ;PAR;1.4.0">EBZ Parodontalerkrankungen v1.4.0</option>
+        <option value="EBZ;ZER;1.4.0">EBZ Zahnersatz v1.4.0</option>
+        <option value="eAU;Lieferung;V1.0">eAU Lieferung V1.0</option>
+        <option value="eAU;Storno-Arzt;V1.0">eAU Storno V1.0</option>
+        <option value="Arztbrief;VHitG-Versand;V1.2">Arztbrief VHitG-Versand v1.2</option>
+        <option value="Arztbrief;Eingangsbestaetigung;V1.2">Arztbrief Eingangsbestaetigung v1.2</option>
       </select>
     </div>
 </body>

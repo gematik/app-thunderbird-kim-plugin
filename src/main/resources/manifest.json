@@ -3,10 +3,10 @@
   "name": "${pom.name}",
   "description": "${pom.description}",
   "version": "${pom.version}",
-  "author": "Gematik TI-Entwicklung",
+  "author": "FDK",
   "applications": {
     "gecko": {
-      "id": "thunderbird-kim-plugin@gematik.de",
+      "id": "mail@fdk.app",
       "strict_min_version": "77.0"
     }
   },
@@ -17,7 +17,7 @@
   },
   "compose_action": {
         "default_popup": "pages/add_header_popup.html",
-        "default_title": "Gematik KIM Plugin",
+        "default_title": "KIM Plugin",
         "default_icon": "images/favicon-32x32.png"
   },
   "message_display_action": {

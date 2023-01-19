@@ -1,14 +1,19 @@
 function selectServiceId( event, tabId ) {
-    if(event.target.value) {
-      console.log('Set KIM header to: ' + event.target.value);
-      browser.composeMessageHeaders.addComposeHeader(tabId, 'X-KIM-Dienstkennung', event.target.value);
-    } else {
-      console.log('Remove KIM header');
-      browser.composeMessageHeaders.deleteComposeHeader(tabId, 'X-KIM-Dienstkennung');
+  if (event.target.value) {
+    console.log('Set KIM header to: ' + event.target.value);
+    const valueParts = event.target.value.split(';')
+    if (valueParts.length) {
+      browser.composeMessageHeaders.addComposeHeader(tabId, 'Content-Description', valueParts[0]);
     }
-    browser.tabs.sendMessage(tabId, {action: "setServiceId", value: event.target.value});
+    browser.composeMessageHeaders.addComposeHeader(tabId, 'X-KIM-Dienstkennung', event.target.value);
+  } else {
+    console.log('Remove KIM header');
+    browser.composeMessageHeaders.deleteComposeHeader(tabId, 'X-KIM-Dienstkennung');
+    browser.composeMessageHeaders.deleteComposeHeader(tabId, 'Content-Description');
+  }
+  browser.tabs.sendMessage(tabId, {action: "setServiceId", value: event.target.value});
 
-    return false;
+  return false;
 };
 
 function initServiceId(id, tabId) {

@@ -1,12 +1,12 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>de.gematik.kim</groupId>
+    <groupId>de.fdk.kim</groupId>
     <artifactId>kim-thunderbird-plugin</artifactId>
-    <version>1.0.6-40</version>
+    <version>1.0.0</version>
     <name>Thunderbird KIM Plugin</name>
     <description>Plugin for setting KIM headers for messages</description>
-    <inceptionYear>2020</inceptionYear>
+    <inceptionYear>2023</inceptionYear>
     <packaging>pom</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -103,19 +103,19 @@
     <distributionManagement>
         <repository>
             <id>releases</id>
-			<name>gematik-releases</name>
+			<name>fdk-releases</name>
             <url>https://build.top.local/nexus/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
-			<name>gematik-snapshots</name>
+			<name>fdk-snapshots</name>
             <url>https://build.top.local/nexus/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
     <repositories>
         <repository>
             <id>public</id>
-            <name>Gematik Repository</name>
+            <name>fdk Repository</name>
             <url>https://build.top.local/nexus/content/groups/public/</url>
             <releases>
                 <enabled>true</enabled>

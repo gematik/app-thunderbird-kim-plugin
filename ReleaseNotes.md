@@ -1,12 +1,2 @@
-# Release 1.0.6
-* Changed plugin id
-
-# Release 1.0.5
-* Updated service-ID list (Dienstkennung)
-
-# Release 1.0.2
-# Initial commit 
-
-* Added functionality to set service-ID (Dienstkennung) to message header when composing.
-* Added simple view on messages if service-ID is in message header. 
-
+# Release 1.0.0
+* Forked + clean up + Content-Description header

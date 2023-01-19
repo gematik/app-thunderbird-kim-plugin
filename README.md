@@ -1,9 +1,11 @@
-# Gematik KIM Thunderbird plugin
+# FDK KIM Thunderbird plugin
+
+fork of the famous GEMATIK KIM Thunderbird plugin
 
 ## Purpose
 
-Plugin for setting `X-KIM-Dienstkennung` message header on sending a message 
-and showing the value of this header on received messages. 
+Plugin for setting `X-KIM-Dienstkennung` and `Content-Description` message header on sending a message 
+and showing the value of this header on received messages.
 
 ## Installation
 
