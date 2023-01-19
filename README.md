@@ -1,6 +1,6 @@
 # FDK KIM Thunderbird plugin
 
-fork of the famous GEMATIK KIM Thunderbird plugin
+fork of the famous GEMATIK KIM Thunderbird plugin + some additions, updates and fixes.
 
 ## Purpose
 
